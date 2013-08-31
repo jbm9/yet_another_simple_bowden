@@ -1,9 +1,26 @@
-.skel
+yet_another_simple_bowden
 =====
 
-This is a skeleton project.  It needs better documentation.
+This is yet another Bowden extruder for the Printrbot Simple.  Unlike
+the other ones, this is designed for the post-beta build, using a
+direct drive extruder.
 
-Contents:
+It's still a WIP and hasn't been properly tested.  In particular,
+early revisions of this design had trouble shoving the filament all
+the way through the teflon tube.
 
-web/ -- An empty website for this thing
-code/ -- An empty directory for code for this thing
+This is also missing a proper cage for the now-external extruder,
+which wants to wiggle around a fair bit as it pushes the filament out,
+ruining the evenness of the flow.
+
+The design is very, very loosely designed on rsilvers's conversion:
+http://www.thingiverse.com/thing:96178
+
+And is slightly more directly based on owens's version of the same:
+http://www.thingiverse.com/thing:98291
+
+TODO:
+
+ * fan mount on the hotend plate
+ * foot for the extruder to make it sit still
+ * gearing for the extruder, to get smoother prints and more reliable feed
